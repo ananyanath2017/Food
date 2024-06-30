@@ -3,13 +3,31 @@
     width: 46px;
     margin-right: 600px;
 }
+
 .me-auto1 {
-    margin-left:79%;
-    Width:438px;
+    margin-left: 79%;
+    Width: 438px;
     height: 42px;
     Top: 69px;
 }
-.menu:hover{
+.foo{
+    Width:58px;
+    Height:45px;
+}
+.menu:hover {
     text-decoration: underline;
     color: #D7F03A;
+}
+
+.vector {
+    Width: 18px;
+    Height: 18px;
+}
+.line{
+    Width:45px;
+    Top:47px;
+}
+.Shopping_cart{
+    Width:20px;
+    Height:20px;
 }

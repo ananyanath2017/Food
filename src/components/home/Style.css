@@ -1,4 +1,40 @@
-.fast food {
+.fast_food {
     Width:750px;
     Height:712px;
+}
+.food_delivery{
+    Width:221px;
+    Height:98px;
+}
+.Group_4{
+    Width:139.99px;
+    Height:176.03px;
+}
+.button{
+    Width:188px;
+    Height:70px;
+    border-radius:84px;
+    --bs-btn-bg: #000000;
+    --bs-btn-active-bg: #000000;
+}
+.button:hover{
+    text-decoration: underline;
+    color: #072f9b;
+    --bs-btn-hover-bg: #000000;
+}
+.Watch_Vedio{
+    Width:131px;
+    Height:19px;
+}
+.Watch_Vedio:hover{
+    text-decoration: underline;
+    color: #072f9b;
+}
+.Group_3{
+    Width:255px;
+    Height:92px;
+}
+.Group_2{
+    Width:57px;
+    Height:57px;
 }
