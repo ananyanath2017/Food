@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -18,39 +18,42 @@ function Home() {
   return (
     <Container>
       <Row>
-        <Col>
-        <Container>
-          <Row>
-          <h1 className="fast">Fast</h1>
-          </Row>
-          <Row>
-          <h3 className="food_delivery">Food Delivery</h3>
-          </Row>
-          <Row>
-          <img src={Group_4} className="Group_4"></img>
-          </Row>
-          <Row>
-          <Button variant="primary" className='button' onClick={handleShow}>
-              Order Now
-            </Button>
-            <Container>
-              <Row>
-              <h3 className="Watch_Vedio">Watch Vedio</h3>
-              </Row>
-              <Row>
-              <img src={Group_2} className="Group_2"></img>
-              </Row>
-              <Row>
+        <Col xs={6}>
+          <Container>
+            <Row>
+              <Col xs={2}>
+                <span className="fast">Fast</span>
+              </Col>
+              <Col xs={2} className="food_delivery">
+                <span >Food Delivery</span>
+              </Col>
+              <Col xs={2} style={{}}>
+                <img src={Group_4} className="Group_4"></img>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <Button variant="primary" className='button' onClick={handleShow}>
+                  Order Now
+                </Button>
+              </Col>
+              <Col>
+                <h3 className="Watch_Vedio">Watch Vedio</h3>
+              </Col>
+              <Col>
+                <img src={Group_2} className="Group_2"></img>
+              </Col>
+            </Row>
+            <Row>
               <img src={Group_3} className="Group_3"></img>
-              </Row>
-            </Container>
-          </Row>
-        </Container>
+            </Row>
+          </Container>
+        </Col >
+
+        <Col xs={6}>
+          <img src={Fastfood} className='fast_food'></img>
         </Col>
-      <Col>
-        <img src={Fastfood} className='fast_food'></img>
-      </Col>
-      </Row>
+      </Row >
     </Container >
   )
 }

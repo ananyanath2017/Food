@@ -1,14 +1,25 @@
+.fast {
+    color:#FF7E00;
+    font-size: 50px;
+    font-weight: bolder;
+}
 .fast_food {
     Width:750px;
     Height:712px;
 }
 .food_delivery{
-    Width:221px;
-    Height:98px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 85%;
+    padding-top: 2.5%;
+    padding-left: 5%;
 }
 .Group_4{
-    Width:139.99px;
-    Height:176.03px;
+    Width:110px;
+    Height:150px;
+    margin-bottom: 150%;
+    
 }
 .button{
     Width:188px;
