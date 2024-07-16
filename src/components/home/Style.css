@@ -27,6 +27,7 @@
     border-radius:84px;
     --bs-btn-bg: #000000;
     --bs-btn-active-bg: #000000;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .button:hover{
     text-decoration: underline;
@@ -48,4 +49,9 @@
 .Group_2{
     Width:57px;
     Height:57px;
+}
+.text{
+    color:#909090;
+    font-size:22px;
+    font-weight: normal;
 }

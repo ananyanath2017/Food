@@ -32,16 +32,19 @@ function Home() {
               </Col>
             </Row>
             <Row>
+              <span className="text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium</span>
+            </Row>
+            <Row>
               <Col>
                 <Button variant="primary" className='button' onClick={handleShow}>
                   Order Now
                 </Button>
               </Col>
               <Col>
-                <h3 className="Watch_Vedio">Watch Vedio</h3>
+                <img src={Group_2} className="Group_2"></img>
               </Col>
               <Col>
-                <img src={Group_2} className="Group_2"></img>
+                <h3 className="Watch_Vedio">Watch Vedio</h3>
               </Col>
             </Row>
             <Row>

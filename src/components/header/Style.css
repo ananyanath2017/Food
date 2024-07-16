@@ -11,8 +11,9 @@
     Top: 69px;
 }
 .foo{
-    Width:58px;
-    Height:45px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: le;
 }
 .menu:hover {
     text-decoration: underline;
@@ -27,7 +28,11 @@
     Width:45px;
     Top:47px;
 }
-.Shopping_cart{
+.shopping_cart{
     Width:20px;
     Height:20px;
+}
+.text_2{
+    Width:6px;
+    Height:9px;
 }
