@@ -2,6 +2,12 @@
     color:#FF7E00;
     font-size: 50px;
     font-weight: bolder;
+    padding-top: 2.5%;
+    padding-left: 5%;
+}
+.fast:hover{
+    text-decoration: underline;
+    color: #072f9b;
 }
 .fast_food {
     Width:750px;
@@ -15,11 +21,15 @@
     padding-top: 2.5%;
     padding-left: 5%;
 }
+.food_delivery:hover{
+    text-decoration: underline;
+    color: #072f9b;
+}
 .Group_4{
     Width:110px;
     Height:150px;
-    margin-bottom: 150%;
-    
+    margin-top: 0.5%;
+    rotate: -17.84 deg;
 }
 .button{
     Width:188px;
@@ -28,6 +38,7 @@
     --bs-btn-bg: #000000;
     --bs-btn-active-bg: #000000;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 50px;
 }
 .button:hover{
     text-decoration: underline;
@@ -37,6 +48,7 @@
 .Watch_Vedio{
     Width:131px;
     Height:19px;
+    margin-top: 50px;
 }
 .Watch_Vedio:hover{
     text-decoration: underline;
@@ -45,13 +57,19 @@
 .Group_3{
     Width:255px;
     Height:92px;
+    margin-top: 50px;
 }
 .Group_2{
     Width:57px;
     Height:57px;
+    margin-top: 50px;
 }
 .text{
     color:#909090;
     font-size:22px;
     font-weight: normal;
+}
+.text:hover{
+    text-decoration: underline;
+    color: #072f9b;
 }

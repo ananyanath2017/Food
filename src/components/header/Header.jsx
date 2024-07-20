@@ -5,7 +5,6 @@ import Vector from './Vector.png';
 import Line from './Line_1.png';
 import Shopping_cart from './Shopping_cart.png';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -32,7 +31,6 @@ function Header() {
                   className="me-2"
                   aria-label="Search"
                 />
-                <Button variant="outline-success">Search</Button>
               </Form>
               {/* <Nav.Link className="menu1" href="#search">Search</Nav.Link> */}
               <img src={Line} className="Line_1"></img>

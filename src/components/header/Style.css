@@ -13,7 +13,10 @@
 .foo{
     font-size: 32px;
     font-weight: bold;
-    text-align: le;
+}
+.foo:hover{
+    text-decoration: underline;
+    color:#072f9b;
 }
 .menu:hover {
     text-decoration: underline;
@@ -35,4 +38,5 @@
 .text_2{
     Width:6px;
     Height:9px;
+    color: red;
 }
