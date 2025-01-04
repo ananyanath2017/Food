@@ -19,10 +19,10 @@ function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="menu" href="#home">Home</Nav.Link>
-              <Nav.Link className="menu" href="#menu">Menu</Nav.Link>
-              <Nav.Link className="menu" href="#contact">Contact</Nav.Link>
-              <Nav.Link className="menu" href="#shop">Shop</Nav.Link>
+              <Nav.Link className="menu" href="/">Home</Nav.Link>
+              <Nav.Link className="menu" href="/menu">Menu</Nav.Link>
+              <Nav.Link className="menu" href="/contact">Contact</Nav.Link>
+              <Nav.Link className="menu" href="/shop">Shop</Nav.Link>
               <img src={Vector} className='vector'></img>
               <Form className="d-flex">
                 <Form.Control
